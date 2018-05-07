@@ -1,0 +1,119 @@
+/* root styles */
+:root {
+	--teal: #4aaaa5;
+	--mainFont: #777777;
+	--background: #ffffff;
+	--headerBorder:  #cccccc;
+	--footerBackground: #666666;
+	--contentBorder: #dddddd;
+}
+
+* {
+	line-height: 2rem;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: var(--mainFont);
+}
+
+body {
+	background-image: url('./media/mainBackground.png');
+	
+}
+
+#mainBody {
+	background: var(--background);
+	margin-top: 10vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--teal);
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* navigation */
+nav {
+	border-bottom: 1px solid var(--headerborder);
+}
+
+
+/* footer */
+
+#mainFooter {
+	text-align: center;
+	background: var(--footerBackground);
+	border-top: 1rem solid var(--teal);
+	width: 100%;
+
+}
+
+#mainFooter p {
+	color: var(--background);
+	padding: 1rem;
+}
+
+i {
+	color: var(--teal);
+}
+
+#social {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+/* contact page */
+/* Contact Page */
+input {
+	display: block;
+	width: 100%;
+	height: 1.6rem;
+	margin-bottom: .6rem;
+}
+
+textarea {
+	display: block;
+	width: 100%;
+	height: 350px;
+}
+
+.formLabel {
+	color: var(--mainFont);
+}
+
+button {
+	width: 100%;
+	background: var(--teal);
+	color: var(--background);
+	font-size: 20px;
+	margin-top: 1.4rem;
+	padding-top: .6rem;
+	padding-bottom: .6rem;
+}
+
+/* portfolio */
+
+.btn {
+	width: 100%;
+	background: var(--teal);
+	border: 0;
+}
+
+.card {
+	margin-bottom: 2rem;
+}
+
+#portfolioGrid {
+	margin-top: 10vh;
+}
+
+
+
+
+
+
