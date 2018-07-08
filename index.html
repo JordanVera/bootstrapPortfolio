@@ -8,80 +8,97 @@
     <meta charset="utf-8">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	
+	<!-- FOUNDATION Compressed CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.4.3/dist/css/foundation.min.css" integrity="sha256-GSio8qamaXapM8Fq9JYdGNTvk/dgs+cMLgPeevOYEx0= sha384-wAweiGTn38CY2DSwAaEffed6iMeflc0FMiuptanbN4J+ib+342gKGpvYRWubPd/+ sha512-QHEb6jOC8SaGTmYmGU19u2FhIfeG+t/hSacIWPpDzOp5yygnthL3JwnilM7LM1dOAbJv62R+/FICfsrKUqv4Gg==" crossorigin="anonymous">
 	<!-- External CSS -->
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="css/style.css" />
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-		<div class="container"><a class="navbar-brand" href="#">Jordan Vera</a>
-			
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-			
-			<div class="collapse navbar-collapse" id="navbarText">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a class="nav-link text-center" href="index.html">About</a></li>
-					<li class="nav-item"><a class="nav-link text-center" href="contact.html">Contact</a></li>
-					<li class="nav-item"><a class="nav-link text-center" href="portfolio.html">Portfolio</a></li>
-				</ul>
+	<nav data-sticky-container>
+		<!-- NAVIGATION -->
+		<div class="top-bar bg" id="example-menu" data-sticky data-margin-top="0">
+			<div class="grid-container">
+				<div class="top-bar-left"><a href="index.html">
+				<a href="index.html"><img id="portfolioLogo" src="media/portfolioLogo.jpg" alt="" /></a>
+				</a></div>
 			</div>
-		</div>
+			
+			<div class="grid-container">
+				<div class="top-bar-right">
+					<ul class="dropdown menu" data-dropdown-menu>
+						<li><a href="index.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+					</ul>
+				</div>
+			</div><!-- GRID CONTAINER -->
+		</div><!-- END NAVIGATION -->
 	</nav>
 	
-	
-	<div class="container">
-		<section id="mainBody" class="p-5">
-			<h2 class="border-bottom pb-3 mb-4">About Me</h2>
+	<div class="grid-container">
+		<div  id="mainBody" class="card">
+			<div class="card-divider">
+				<h2>About Me</h2>
+			</div>
 			
-			<!--<img src="media/IMG_6609.JPG" alt="kansas city chiefs logo" class="float-left" style="max-width: 220px; margin-right: 1.2rem;" />-->
+			<div class="card-section">
+				<p id="mainPara"> I am <a href="contact.html">Jordan Vera</a>, a freelance web developer whose main goal is to help businesses with their online presence by creating beautifully designed websites with optimization in mind from the beginning.  I can help your company generate proper leads in only fractions of the cost of traditional marketing and advertising methods.  My passion for web development began in 2016, and I believe that good web development is the key behind any good optimization efforts.  All of my websites are created by me coding them, I do not utilize any content management systems (CMS) at all such as Wordpress or Squarespace.  These CMS systems are great, but when taking optimization into consideration they aren’t the best.  An &lt;html&gt; website often loads a lot faster than a Wordpress website.  The reason many companies offer CMS developed websites is because they want you to be able to change the content within your website, but this can cause problems with on-page SEO efforts.  Every single sentence on your website should be deliberately placed there for a reason.  A saying within the industry is “content is king”, which means that our optimizations efforts should be based on providing valuable content to your consumers.  Whether you need a static website, or a full fledge web application, <a href="contact.html" id="cont">contact me</a> for a free consultation!</p>
+			</div>
 			
-			<p id="mainPara">Howdy!  I am Jordan Vera, a freelance web developer whose main goal is to help businesses with their online presence by creating beautifully designed websites with optimization in mind from the beginning.  I can help your company generate proper leads in only fractions of the cost of traditional marketing and advertising methods.  My passion for web development began in 2016, and I believe that good web development is the key behind any good optimization efforts.  All of my websites are created by me coding them, I do not utilize any content management systems (CMS) at all such as Wordpress or Squarespace.  These CMS systems are great, but when taking optimization into consideration they aren’t the best.  An &lt;html&gt; website often loads a lot faster than a Wordpress website.  The reason many companies offer CMS developed websites is because they want you to be able to change the content within your website, but this can cause problems with on-page SEO efforts.  Every single sentence on your website should be deliberately placed there for a reason.  A saying within the industry is “content is king”, which means that our optimizations efforts should be based on providing valuable content to your consumers.  Whether you need a static website, or a full fledge web application, <a href="contact.html" id="cont">contact me</a> for a free consultation! </p>
-				
-				<div class="row">
-				<div class="col col-lg-8 my-auto">
-					<ul class="list-group list-group-flush text-center">
-					  <li class="list-group-item">Web Design</li>
-					  <li class="list-group-item">SEO Specialist</li>
-					  <li class="list-group-item">Digital Marketing</li>
-					  <li class="list-group-item">HTML/CSS/JavaScript Development</li>
-					  <li class="list-group-item">Social Media Marketing</li>
+			<div id="abstract" class="grid-x grid-margin-x">
+				<div class="cell large-8">
+					
+					<ul class="vertical menu align-center">
+					  <li><a href="portfolio.html">Web Design</a></li>
+					  <hr />
+					  <li><a href="portfolio.html">SEO Specialists</a></li>
+					  <hr />
+					  <li><a href="portfolio.html">HTML/CSS/Javascript development</a></li>
+					  <hr />
+					  <li><a href="portfolio.html">Digital Marketing</a></li>
+					  <hr />
+					  <li><a href="portfolio.html">Social Media Marketing</a></li>
 					</ul>
-				</div><!-- COL -->
-				<div class="col col-lg-4">
-					<div class="card  mx-auto" style="width: 18rem;">
-					 <img src="media/portfolio.jpeg" style="max-width: 100%;">
-					  <div class="card-body">
-					    <h5 class="card-title text-center">Online Portfolio</h5>
-					    <p class="card-text text-center">My online portfolio is my pride and joy.  It features some of the applications I've built to this day.  It is a work in progress and will be continually updated.</p>
-					    <a href="portfolio.html" class="btn btn-primary">View My Portfolio</a>
-					  </div>
+					
+				</div>
+				
+				<div class="cell large-4">
+					<div class="card">
+						<div class="card-divider">
+							<h3>My Portfolio</h3>
+						</div>
+						
+						<img src="media/portfolio.jpeg" style="max-width: 100%;">
+						
+						<div class="card-section">
+							<h4>View My Portfolio.</h4>
+							
+							<p>My portfolio is my pride and joy.  It is an ever-evolving display of my work.</p>
+				  			<a href="portfolio.html" class="button">View my Portfolio</a></div>
 					</div>
-				</div><!-- COL -->
-			</div><!-- ROW -->
-		</section>
-		
-
-		
+				</div>
+			</div>
+		</div><!--  -->
 	</div><!-- Container -->
 	
 	<footer id="mainFooter">
 		<p class="text-center">Copyright &copy; 2018</p>
-			<article id="social" class="pb-3">
-			<a href="https://github.com/JordanVera" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+		
+		<article id="social"><a href="https://github.com/JordanVera" target="_blank"><i class="fab fa-github fa-2x"></i></a>
 			<a href="https://stackoverflow.com/users/9643686/jordan" target="_blank"><i class="fab fa-stack-overflow fa-2x"></i></a>
-			<a href="https://www.linkedin.com/in/jordan-vera-836701161/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-			</article>
+			<a href="https://www.linkedin.com/in/jordan-vera-836701161/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></article>
 	</footer>
 
 
 	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<!-- jQuery first, then Popper.js, then Foundation JS -->
 	   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.4.3/dist/js/foundation.min.js" integrity="sha256-mRYlCu5EG+ouD07WxLF8v4ZAZYCA6WrmdIXyn1Bv9Vk= sha384-KzKofw4qqetd3kvuQ5AdapWPqV1ZI+CnfyfEwZQgPk8poOLWaabfgJOfmW7uI+AV sha512-0gHfaMkY+Do568TgjJC2iMAV0dQlY4NqbeZ4pr9lVUTXQzKu8qceyd6wg/3Uql9qA2+3X5NHv3IMb05wb387rA==" crossorigin="anonymous"></script>
+	  
+	  <script src="javascript/logic.js"></script>
 </body>
 </html>

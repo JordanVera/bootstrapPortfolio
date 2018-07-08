@@ -1,141 +1,112 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>portfolio | Web development</title>
+	<title>Home | Web development</title>
+	
+	
     <!-- Required meta tags -->
     <meta charset="utf-8">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	
+	<!-- FOUNDATION Compressed CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.4.3/dist/css/foundation.min.css" integrity="sha256-GSio8qamaXapM8Fq9JYdGNTvk/dgs+cMLgPeevOYEx0= sha384-wAweiGTn38CY2DSwAaEffed6iMeflc0FMiuptanbN4J+ib+342gKGpvYRWubPd/+ sha512-QHEb6jOC8SaGTmYmGU19u2FhIfeG+t/hSacIWPpDzOp5yygnthL3JwnilM7LM1dOAbJv62R+/FICfsrKUqv4Gg==" crossorigin="anonymous">
 	<!-- External CSS -->
-	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="css/style.css" />
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-		<div class="container"><a class="navbar-brand" href="#">Jordan Vera</a>
-			
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-			
-			<div class="collapse navbar-collapse" id="navbarText">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a class="nav-link text-center" href="index.html">About</a></li>
-					<li class="nav-item"><a class="nav-link text-center" href="contact.html">Contact</a></li>
-					<li class="nav-item"><a class="nav-link text-center" href="portfolio.html">Portfolio</a></li>
-				</ul>
+	<nav data-sticky-container>
+		<!-- NAVIGATION -->
+		<div class="top-bar bg" id="example-menu" data-sticky data-margin-top="0">
+			<div class="grid-container">
+				<div class="top-bar-left"><a href="index.html">
+				<a href="index.html"><img id="portfolioLogo" src="media/portfolioLogo.jpg" alt="" /></a>
+				</a></div>
 			</div>
-		</div>
+			
+			<div class="grid-container">
+				<div class="top-bar-right">
+					<ul class="dropdown menu" data-dropdown-menu>
+						<li><a href="index.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+					</ul>
+				</div>
+			</div><!-- GRID CONTAINER -->
+		</div><!-- END NAVIGATION -->
 	</nav>
 	
 	
-	<div class="container">
-		<section id="portfolioGrid" class="pt-5 ">
-		<h1 class="text-center mb-1rem">Web Applications</h1>
-		<div class="row">
-			<div class="col col-12 col-md-4">
-				<div class="card" style="width: 100%;">
-				  <img class="card-img-top" src="media/numbers.jpg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Number Guesser Game</h5>
-				    <p class="card-text">This is a simple number guesser application.  You have 4 tries to guess a number between 1 and 10</p>
-				    <a href="https://jordanvera.github.io/wordGuessGame/" class="btn btn-primary">Demo</a>
-				  </div>
-				</div>
-			</div><!-- col -->
-			<div class="col col-12 col-md-4">
-				<div class="card" style="width: 100%;">
-				  <img class="card-img-top" src="media/haunted.jpg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Haunted Trivia</h5>
-				    <p class="card-text">Haunted trivia game.  This game uses sound effects.  Play at your own caution!</p>
-				    <a href="https://jordanvera.github.io/triviaGame/" class="btn btn-primary">Demo</a>
-				  </div>
-				</div>
-			</div><!-- col -->
-			<div class="col col-12 col-md-4">
-				<div class="card" style="width: 100%;">
-				  <img class="card-img-top" src="media/techThree.jpeg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary disabled">Go somewhere</a>
-				  </div>
-				</div>
-			</div><!-- col -->
-		</div><!-- row -->
-		
-		
-		
-		<div class="row">
-			<div class="col col-12 col-md-4">
-				<div class="card" style="width: 100%;">
-				  <img class="card-img-top" src="media/techFour.jpeg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary disabled">Go somewhere</a>
-				  </div>
-				</div>
-			</div><!-- col -->
-			<div class="col col-12 col-md-4">
-				<div class="card" style="width: 100%;">
-				  <img class="card-img-top" src="media/techFive.jpeg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary disabled">Go somewhere</a>
-				  </div>
-				</div>
-			</div><!-- col -->
-			<div class="col col-12 col-md-4">
-				<div class="card" style="width: 100%;">
-				  <img class="card-img-top" src="media/techSix.jpeg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary disabled">Go somewhere</a>
-				  </div>
-				</div>
-			</div><!-- col -->
-		</div><!-- row -->
-		
-		<div class="row">
-			<div class="col col-12 col-md-4">
-				<div class="card" style="width: 100%;">
-				  <img class="card-img-top" src="media/techSeven.jpeg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary disabled">Go somewhere</a>
-				  </div>
-				</div>
-			</div><!-- col -->
-			<div class="col col-12 col-md-4">
-				<div class="card" style="width: 100%;">
-				  <img class="card-img-top" src="media/techEight.jpeg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary disabled">Go somewhere</a>
-				  </div>
-				</div>
-			</div><!-- col -->
-			<div class="col col-12 col-md-4">
-				<div class="card" style="width: 100%;">
-				  <img class="card-img-top" src="media/techNine.jpeg" alt="Card image cap">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary disabled">Go somewhere</a>
-				  </div>
-				</div>
-			</div><!-- col -->
-		</div><!-- row -->
-		
-		</section>
+	<div class="grid-container" id="portfolioGrid">
+			<h2 class="text-center">Web Applications</h2>
+		<div class="grid-x grid-margin-x">
+				<div class="cell medium-4">
+					<div class="card">
+					  <img class="card-img-top" src="media/tech.jpeg" alt="Card image cap">
+					  <div class="card-section">
+					    <h4>Damojo Event Planner</h4>
+					    <p class="card-text">This application is used to plan events in specific areas.  Damojo uses two apis (Eventful and Google Maps) as well as the SASS library for styling purposes.</p>
+					    <a href="https://shimmeringdeep.github.io/projectRepo1/#" target="_blank" class="button">Demo</a>
+					  </div>
+					</div>
+				</div><!-- cell medium-4 -->
+				<div class="cell medium-4">
+					<div class="card">
+					  <img class="card-img-top" src="media/gifgen.jpg" alt="Card image cap">
+					  <div class="card-section">
+					    <h4>Random Gif generator</h4>
+					    <p>This is a school subject based gif generator, but it could be used to search any gifs!</p>
+						<a href="https://jordanvera.github.io/gifGenerator/" target="_blank" class="button">Demo</a>
+					  </div>
+					</div>
+				</div><!-- cell medium-4 -->
+				<div class="cell medium-4">
+					<div class="card">
+					   <img class="card-img-top" src="media/train.jpg" alt="Card image cap">
+					  
+					  <div class="card-section">
+					    <h4>Train Scheduler</h4>
+					    <p>This application is a simple train scheduler.  It was my first full fledge application built off of firebase.</p>
+					    <a href="https://jordanvera.github.io/trainSchedule/" target="_blank" class="button">Demo</a>
+					  </div>
+					</div>
+				</div><!-- cell medium-4 -->	
+		</div><!-- grid-x -->
+		<div class="grid-x grid-margin-x">
+				<div class="cell medium-4">
+					<div class="card">
+					  <img class="card-img-top" src="media/numbers.jpg" alt="Card image cap">
+					  <div class="card-section">
+					    <h4>Number Guesser Game</h4>
+					    <p>This is a simple number guesser application.  You have 4 tries to guess a number between 1 and 10</p>
+						<a href="https://jordanvera.github.io/wordGuessGame/" target="_blank" class="button">Demo</a>
+					  </div>
+					</div>
+				</div><!-- cell medium-4 -->
+				<div class="cell medium-4">
+					<div class="card">
+					   <img class="card-img-top" src="media/haunted.jpg" alt="Card image cap">
+					  
+					  <div class="card-section">
+					    <h4>Haunted Trivia</h4>
+					    <p>Haunted trivia game.  This game uses sound effects.  Play at your own caution!</p>
+					    <a href="https://jordanvera.github.io/triviaGame/" target="_blank" class="button">Demo</a>
+					  </div>
+					</div>
+				</div><!-- cell medium-4 -->	
+				<div class="cell medium-4">
+					<div class="card">
+					  <img class="card-img-top" src="media/guns.jpg" alt="Card image cap">
+					  <div class="card-section">
+					    <h4>Destroyer Game</h4>
+					    <p class="card-text">This is a simple shooter game.  Try and shoot the target the specified amount of times, if you go over, your lose</p>
+					    <a href="https://jordanvera.github.io/unit-4-game/" target="_blank" class="button">Demo</a>
+					  </div>
+					</div>
+				</div><!-- cell medium-4 -->
+		</div><!-- grid-x -->
 	</div><!-- Container -->
 	
 	<footer id="mainFooter">
@@ -153,9 +124,11 @@
 
 
 	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<!-- jQuery first, then Popper.js, then Foundation JS -->
 	   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.4.3/dist/js/foundation.min.js" integrity="sha256-mRYlCu5EG+ouD07WxLF8v4ZAZYCA6WrmdIXyn1Bv9Vk= sha384-KzKofw4qqetd3kvuQ5AdapWPqV1ZI+CnfyfEwZQgPk8poOLWaabfgJOfmW7uI+AV sha512-0gHfaMkY+Do568TgjJC2iMAV0dQlY4NqbeZ4pr9lVUTXQzKu8qceyd6wg/3Uql9qA2+3X5NHv3IMb05wb387rA==" crossorigin="anonymous"></script>
+
+	<script src="javascript/logic.js"></script>
 </body>
 </html>

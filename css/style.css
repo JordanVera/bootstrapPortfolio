@@ -1,0 +1,110 @@
+/* Global Color Variables */
+body {
+  background-image: url("../media/connectwork.png"); }
+
+hr {
+  border: 1px solid #ffffff;
+  width: 10%; }
+
+/* Navigation */
+.shrink {
+  padding: 16px 0;
+  transform: scale(0.9);
+  transition: all 0.4s ease-in-out; }
+
+.bg {
+  opacity: 1; }
+
+.show {
+  opacity: .9; }
+
+nav {
+  margin-bottom: 4rem; }
+  nav .top-bar {
+    background: #14a76c;
+    padding: 30px; }
+  nav .dropdown {
+    background: #14a76c; }
+  nav a {
+    color: #ffffff; }
+  nav a:hover {
+    color: #ffe400; }
+  nav img {
+    height: 54px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out; }
+
+/* main body */
+#mainBody {
+  margin-bottom: 4rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  #mainBody .card {
+    background: #f5f5f5 url("../images/bg.jpg") no-repeat left top; }
+  #mainBody .card-divider {
+    background: #ff652f;
+    color: #ffffff; }
+  #mainBody .card-section {
+    padding: 1rem 2rem;
+    background: #272727;
+    color: #ffffff; }
+    #mainBody .card-section a:hover {
+      color: #ffe400; }
+    #mainBody .card-section label {
+      color: #ff652f; }
+  #mainBody #abstract {
+    padding: 1rem 2rem;
+    background: #272727;
+    color: #ffffff; }
+  #mainBody a {
+    color: #ff652f; }
+  #mainBody .button {
+    background: #ff652f;
+    color: #ffffff; }
+  #mainBody .button:hover {
+    background: #ffe400;
+    color: #ffffff; }
+  #mainBody textarea {
+    height: 20rem; }
+
+/* main footer */
+#mainFooter {
+  text-align: center;
+  background: #14a76c;
+  padding: 1.4rem 0; }
+  #mainFooter i, #mainFooter p {
+    color: #ffffff; }
+  #mainFooter i:hover {
+    color: #ffe400; }
+  #mainFooter #social {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+
+/* portfolio */
+.btn {
+  width: 100%;
+  background: var(--teal);
+  border: 0; }
+
+#portfolioGrid {
+  margin-bottom: 4rem; }
+  #portfolioGrid h2 {
+    color: #ffffff; }
+  #portfolioGrid h4 {
+    color: #ff652f; }
+  #portfolioGrid .card-section {
+    padding: 1rem 2rem;
+    background: #272727;
+    color: #ffffff; }
+  #portfolioGrid .button {
+    color: #ffffff;
+    background: #ff652f; }
+  #portfolioGrid .button:hover {
+    background: #ffe400;
+    color: #ffffff; }
+
+@media (max-width: 950px) {
+  #mainBody {
+    margin-top: 3rem; } }
+
+/*# sourceMappingURL=style.css.map */
